@@ -1,0 +1,12 @@
+<?php
+	$url = "./portfolio/index.php";
+	$url .= ( $_SERVER["QUERY_STRING"] == '' ? '' : '?' . $_SERVER["QUERY_STRING"] ) ;
+	header( "Location: $url" );
+	exit;
+?>
+<!-- $url = "nv_api/nvDataLab.html"; -->
+<!-- $url = "makeshop_api/makeshop_api.php"; -->
+
+<!-- <script> -->
+	<!-- location.href="nv_api/nvDataLab.html"; -->
+<!-- </script> -->
